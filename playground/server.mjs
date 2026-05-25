@@ -1,5 +1,6 @@
 import { createServer } from 'node:http';
-import {write}
+import { writeFileSync } from 'node:fs';
+console.log(writeFileSync);
 
 console.log(createServer);
 
