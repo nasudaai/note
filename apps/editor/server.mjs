@@ -4,6 +4,9 @@ console.log(readFileSync);
 
 //console.log(createServer);
 
+const html = readFileSync("./index.html");
+console.log(html);
+
 const server = createServer((req, res) => {
   res.end("hello");
 });
