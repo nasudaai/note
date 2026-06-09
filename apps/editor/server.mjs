@@ -8,7 +8,7 @@ const html = readFileSync("./index.html", "utf-8");
 console.log(html);
 
 const server = createServer((req, res) => {
-  res.end("hello");
+  res.end(html);
 });
 
 
