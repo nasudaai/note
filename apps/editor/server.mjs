@@ -4,7 +4,7 @@ console.log(readFileSync);
 
 //console.log(createServer);
 
-const html = readFileSync("./index.html");
+const html = readFileSync("./index.html", "utf-8");
 console.log(html);
 
 const server = createServer((req, res) => {
