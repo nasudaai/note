@@ -7,12 +7,14 @@ console.log(readFileSync);
 const html = readFileSync("./index.html", "utf-8");
 console.log(html);
 
-const js = 
+const js = readFileSync("./main.js"); 
 
 const server = createServer((req, res) => {
 
   if (req.url === "/main.js") {
     res.end(js);
+
+    return;
   }
   res.end(html);
 });
