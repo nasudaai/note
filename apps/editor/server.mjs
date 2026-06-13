@@ -8,6 +8,7 @@ const html = readFileSync("./index.html", "utf-8");
 console.log(html);
 
 const js = readFileSync("./main.js"); 
+const css = readFileSync("./styles.css");
 
 const server = createServer((req, res) => {
 
@@ -16,6 +17,13 @@ const server = createServer((req, res) => {
 
     return;
   }
+
+  if (req.url === "/styles.css") {
+    res.end(css);
+
+    return;
+  }
+
   res.end(html);
 });
 
