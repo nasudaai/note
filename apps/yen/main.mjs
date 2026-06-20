@@ -4,6 +4,7 @@ console.log("yen")
 
 const obj = {
   yen: args[0],
+  correct: args[1]
 };
 
 console.log(obj.yen);
