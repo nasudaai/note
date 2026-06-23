@@ -4,6 +4,7 @@ const obj = {
   yen: args[0],
   correct: args[1],
   typesPerOfSecond: args[2],
+  miss: args[3],
 };
 
 console.log(obj.yen);
