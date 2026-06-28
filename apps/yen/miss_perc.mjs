@@ -5,4 +5,6 @@ const [ types, miss ] = args.map((value) => {
   return Number(value);
 });
 
-console.log(types, miss);
+const missPer = miss / types;
+
+console.log(missPer);
