@@ -8,7 +8,12 @@ const obj = {
   correct: args[1],
   typesPerOfSecond: args[2],
   miss: args[3],
+  cource: args[4],
 };
 
 console.log(obj.yen);
 console.log(obj.typesPerOfSecond);
+
+for (let i = 0; i < args.length; i++) {
+ console.log(Object.values(obj)[i]); 
+}
