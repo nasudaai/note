@@ -17,3 +17,6 @@ console.log(obj.typesPerOfSecond);
 for (let i = 0; i < args.length; i++) {
  console.log(Object.values(obj)[i]); 
 }
+
+const values = Object.values(obj);
+console.log(values);
