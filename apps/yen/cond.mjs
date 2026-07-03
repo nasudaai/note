@@ -1,3 +1,5 @@
+const input = process.argv.slice(2);
+
 const args = [ 1, 2, 3, 4, 5];
 
 if (args.length !== 5 ) {
