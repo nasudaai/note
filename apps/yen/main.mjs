@@ -1,7 +1,7 @@
 import { writeFileSync } from 'node:fs';
 console.log(writeFileSync);
 
-const args = process.argv.slice(2);
+//const args = process.argv.slice(2);
 
 const obj = {
   yen: args[0],
@@ -11,8 +11,8 @@ const obj = {
   cource: args[4],
 };
 
-console.log(obj.yen);
-console.log(obj.typesPerOfSecond);
+//console.log(obj.yen);
+//console.log(obj.typesPerOfSecond);
 
 for (let i = 0; i < args.length; i++) {
  console.log(Object.values(obj)[i]); 
