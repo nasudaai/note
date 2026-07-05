@@ -1,7 +1,8 @@
 import { writeFileSync } from 'node:fs';
+import { dateTime } from './date.mjs'
 console.log(writeFileSync);
 
-//const args = process.argv.slice(2);
+const args = process.argv.slice(2);
 
 const obj = {
   yen: args[0],
@@ -20,3 +21,5 @@ for (let i = 0; i < args.length; i++) {
 
 const values = Object.values(obj);
 console.log(values);
+
+writeFileSync("./out/out.txt", "test");
