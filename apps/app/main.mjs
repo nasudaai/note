@@ -2,6 +2,9 @@ const args = process.argv.slice(2);
 console.log(args);
 //console.log("main");
 
+const input = args.length !== 0 ? true : false;
+console.log(input);
+
 function main () {
 //  console.log("main");
   console.log(args);
