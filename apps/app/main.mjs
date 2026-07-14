@@ -7,7 +7,10 @@ console.log(input);
 
 function main () {
 //  console.log("main");
-  console.log(args);
+  if (input === true) {
+
+    console.log(args);
+  }
 };
 
 main();
