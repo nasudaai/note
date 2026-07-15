@@ -10,6 +10,8 @@ function main () {
   if (input === true) {
 
     console.log(args);
+  } else {
+    console.log("please args!")
   }
 };
 
