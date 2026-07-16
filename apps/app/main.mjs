@@ -5,6 +5,12 @@ console.log(args);
 const input = args.length !== 0 ? true : false;
 console.log(input);
 
+function cheak() {
+  
+  const input = args.length !== 0 ? true : false;
+  console.log(input);
+}
+
 function main () {
 //  console.log("main");
   if (input === true) {
