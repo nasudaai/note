@@ -9,6 +9,8 @@ function main() {
   const inputData = JSON.stringify(args);
   console.log(inputData);
 
+  writeFileSync('./out/memo.md', "test");
+
   console.log(args);
   console.log("main");
 };
