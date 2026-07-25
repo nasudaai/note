@@ -11,6 +11,8 @@ function main() {
 
   writeFileSync('./out/memo.md', "test");
 
+  writeFileSync("out/out.txt", inputData);
+
   console.log(args);
   console.log("main");
 };
