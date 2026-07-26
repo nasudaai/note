@@ -1,5 +1,5 @@
 import { writeFileSync } from 'node:fs';
-console.log(writeFileSync);
+//console.log(writeFileSync);
 
 const obj = {};
 
