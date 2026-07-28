@@ -3,7 +3,10 @@ import { readFileSync } from 'node:fs';
 console.log(readFileSync);
 //console.log(writeFileSync);
 
-const obj = {};
+const obj = {
+  args: [ "a", "b", "c"],
+};
+console.log(obj);
 
 function main() {
 
