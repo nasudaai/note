@@ -18,9 +18,12 @@ function main() {
 
   writeFileSync("out/out.txt", inputData);
 
+  const data = readFileSync("out/out.txt");
+
 
   console.log(args);
   console.log("main");
+  console.log(data);
 };
 
 main();
