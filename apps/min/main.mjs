@@ -1,5 +1,6 @@
 import { writeFileSync } from 'node:fs';
 import { readFileSync } from 'node:fs';
+import { write } from './func.mjs';
 console.log(readFileSync);
 //console.log(writeFileSync);
 
