@@ -24,6 +24,8 @@ function main() {
   console.log(args);
   console.log("main");
   console.log(data);
+
+  process.stdout.write("write");
 };
 
 main();
