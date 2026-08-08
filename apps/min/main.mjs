@@ -20,6 +20,7 @@ function main() {
   writeFileSync("out/out.txt", inputData);
 
   const data = readFileSync("out/out.txt");
+  process.stdout.write(data + "\n")
 
 
   console.log(args);
