@@ -27,7 +27,7 @@ function main() {
   console.log("main");
   console.log(data);
 
-  process.stdout.write("write");
+  process.stdout.write("write" + inputData);
   write();
 };
 
