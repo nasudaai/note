@@ -1,31 +1,32 @@
 import { writeFileSync } from 'node:fs';
 import { readFileSync } from 'node:fs';
 import { write } from './func.mjs';
-console.log(readFileSync);
+//console.log(readFileSync);
 //console.log(writeFileSync);
 
 const obj = {
   args: [ "a", "b", "c"],
 };
-console.log(obj);
+//console.log(obj);
 
 function main() {
 
   const args = process.argv.slice(2);
   const inputData = JSON.stringify(args);
-  console.log(inputData);
+//  console.log(inputData);
 
 //  writeFileSync('./out/memo.md', "test");
 
+//memo app
   writeFileSync("out/out.txt", inputData);
 
   const data = readFileSync("out/out.txt");
   process.stdout.write(data + "\n")
 
 
-  console.log(args);
-  console.log("main");
-  console.log(data);
+//  console.log(args);
+//  console.log("main");
+//  console.log(data);
 
   process.stdout.write("write" + inputData);
   write();

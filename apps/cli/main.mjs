@@ -1,4 +1,4 @@
 const args = process.argv.slice(2);
 console.log(args);
 
-process.stdout.write("process");
+process.stdout.write("process\n");
