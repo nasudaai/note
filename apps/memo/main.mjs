@@ -7,4 +7,4 @@ console.log(args);
 const content = JSON.stringify(args);
 process.stdout.write(content);
 
-writeFileSync("./memo.md", content);
+writeFileSync("./out/memo.md", content);
